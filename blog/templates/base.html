@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      {% block title %}{% endblock %} - My Blog
+    </title>
+  </head>
+  <body>
+    <header>
+      <h3>My header</h3>
+    </header>
+    <div>
+      {% block content %}{% endblock %}
+    </div>
+    <footer>
+      footer links here
+    </footer>
+  </body>
+</html>
